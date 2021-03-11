@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class #SCRIPTNAME# : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        #NOTRIM#
-    }
+namespace  {
+    internal sealed class #SCRIPTNAME#: MonoBehaviour {
+        #region Fields
+        #endregion
 
-    // Update is called once per frame
-    void Update()
-    {
-        #NOTRIM#
+        #region Properties
+        #endregion
+
+        #region Ctors and Dtor
+
+	internal #SCRIPTNAME#() {
+	    #NOTRIM#
+	}
+
+        #endregion
+
+        #region Unity User Callback Event Funcs
+        #endregion
     }
 }
