@@ -10,9 +10,9 @@ namespace  {
 
         #region Ctors and Dtor
 
-	internal #SCRIPTNAME#() {
-	    #NOTRIM#
-	}
+        internal #SCRIPTNAME#() {
+            #NOTRIM#
+        }
 
         #endregion
 
