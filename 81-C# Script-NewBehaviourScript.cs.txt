@@ -11,7 +11,9 @@ namespace  {
         #region Ctors and Dtor
 
         internal #SCRIPTNAME#() {
-            #NOTRIM#
+        }
+
+        static #SCRIPTNAME#() {
         }
 
         #endregion
