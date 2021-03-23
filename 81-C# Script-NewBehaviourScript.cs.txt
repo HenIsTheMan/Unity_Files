@@ -10,7 +10,7 @@ namespace  {
 
         #region Ctors and Dtor
 
-        internal #SCRIPTNAME#() {
+        internal #SCRIPTNAME#(): base() {
         }
 
         static #SCRIPTNAME#() {
