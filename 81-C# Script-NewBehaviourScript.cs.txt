@@ -19,6 +19,10 @@ namespace  {
         #endregion
 
         #region Unity User Callback Event Funcs
+
+        private void OnValidate(){
+        }
+
         #endregion
     }
 }
