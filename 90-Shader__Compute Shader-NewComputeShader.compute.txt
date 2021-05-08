@@ -1,0 +1,7 @@
+#pragma kernel MyMain
+
+#include "UnityCG.cginc"
+
+[numthreads(1024, 1, 1)]
+void MyMain(uint3 id: SV_DispatchThreadID) {
+}
