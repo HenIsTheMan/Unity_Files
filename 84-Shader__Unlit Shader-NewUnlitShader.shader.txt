@@ -47,7 +47,7 @@ Shader "MyUnlitShaders/#NAME#" {
                 }
 
                 ZClip True
-                ZTest Less
+                ZTest LEqual
                 ZWrite On
                 //*/
 
