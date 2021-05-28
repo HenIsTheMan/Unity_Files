@@ -59,7 +59,7 @@ Shader "MyUnlitShaders/#NAME#" {
                 #pragma vertex VertexMain
                 #pragma fragment FragMain
                 #pragma multi_compile_fwdbase nolightmap nodirlightmap nodynlightmap novertexlight
-                //*/        
+                //*/
                 
                 //* Includes
                 #include "UnityCG.cginc"
