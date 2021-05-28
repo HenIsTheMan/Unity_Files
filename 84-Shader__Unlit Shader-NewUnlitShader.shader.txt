@@ -36,7 +36,7 @@ Shader "MyUnlitShaders/#NAME#" {
 
                 //* ShaderLab commands to...
                 AlphaToMask Off
-                Blend SrcAlpha OneMinusSrcAlpha, One OneMinusSrcAlpha
+                Blend SrcAlpha OneMinusSrcAlpha, SrcAlpha OneMinusSrcAlpha
                 BlendOp Add
                 ColorMask RGBA
                 Conservative False
