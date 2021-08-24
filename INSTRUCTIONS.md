@@ -1,2 +1,3 @@
 - Change layout
 - Change playmode tint
+- Change script templates
