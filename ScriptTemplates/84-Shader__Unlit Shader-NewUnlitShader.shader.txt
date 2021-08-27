@@ -44,6 +44,21 @@ Shader "MyUnlitShaders/#NAME#" {
                 Offset 0, 0
 
                 Stencil {
+                    Ref 0
+                    ReadMask 255
+                    WriteMask 255
+                    Comp Always
+                    Pass Keep
+                    Fail Keep
+                    ZFail Keep
+                    CompBack Always
+                    PassBack Keep
+                    FailBack Keep
+                    ZFailBack Keep
+                    CompFront Always
+                    PassFront Keep
+                    FailFront Keep
+                    ZFailFront Keep
                 }
 
                 ZClip True
