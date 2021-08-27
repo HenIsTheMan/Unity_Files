@@ -1,24 +1,11 @@
 using UnityEngine;
 
-namespace  {
-    internal sealed class #SCRIPTNAME#: MonoBehaviour {
-        #region Fields
-        #endregion
-
-        #region Properties
-        #endregion
-
-        #region Ctors and Dtor
-
-        internal #SCRIPTNAME#(): base() {
-        }
-
-        static #SCRIPTNAME#() {
-        }
-
-        #endregion
-
+namespace Genesis.Wisdom {
+    private sealed class #SCRIPTNAME#: MonoBehaviour {
         #region Unity User Callback Event Funcs
+        #endregion
+
+        #region Fields and Properties
         #endregion
     }
 }
