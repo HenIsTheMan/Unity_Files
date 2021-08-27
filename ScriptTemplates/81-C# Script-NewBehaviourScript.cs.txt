@@ -1,7 +1,7 @@
 using UnityEngine;
 
 namespace Genesis.Wisdom {
-    private sealed class #SCRIPTNAME#: MonoBehaviour {
+    internal sealed class #SCRIPTNAME#: MonoBehaviour {
         #region Unity User Callback Event Funcs
         #endregion
 
